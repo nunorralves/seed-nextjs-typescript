@@ -8,9 +8,10 @@
 ![GPLv3 license](https://img.shields.io/github/license/nunorralves/seed-nextjs-typescript)
 
 Seed repository for Next.js & TypeScript projects. Created using Yarn create next-app
-Is includes:
+It includes:
   - TypeScript
-  - 
+  - ESLint (standard style guide)
+  - Prettier
 
 
 ## Prerequisites
@@ -22,7 +23,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installing Seed Next.js TypeScript
 
-To install React Storybook, follow these steps:
+To install Seed Next.js TypeScript, follow these steps:
 
 Linux, macOS, Windows:
 
@@ -52,7 +53,7 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 <!--- Thanks to the following people who have contributed to this project:
 * 
 --->
-* none
+* 
 
 <!--- ## Contact --->
 <!--- If you want to contact me you can reach me at <>. -->

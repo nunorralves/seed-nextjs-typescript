@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <div>
       <Head>
@@ -12,15 +12,12 @@ export default function Home() {
       </main>
 
       <footer>
-        <a
-          href=""
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          myCompany
+        <a href="" target="_blank" rel="noopener noreferrer">
+          Powered by myCompany
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
+
+export default Home;
