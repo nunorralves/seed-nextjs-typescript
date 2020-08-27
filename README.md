@@ -1,4 +1,4 @@
-# Seed Next.js TypeScript
+# Seed for Next.js & TypeScript projects
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/nunorralves/seed-nextjs-typescript)
 ![GitHub contributors](https://img.shields.io/github/contributors/nunorralves/seed-nextjs-typescript)
@@ -32,8 +32,8 @@ Linux, macOS, Windows:
 
 To use Seed Next.js TypeScript, follow these steps:
 
-`npm run ` or
-`yarn run ` or
+`npm run dev` or
+`yarn dev `
 
 ## Contributing to Seed Next.js TypeScript
 
@@ -50,11 +50,11 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 ## Contributors
 
 <!--- Thanks to the following people who have contributed to this project:
-
 * 
 --->
-## Contact
+* none
 
+<!--- ## Contact --->
 <!--- If you want to contact me you can reach me at <>. -->
 
 ## License
