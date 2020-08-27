@@ -1,30 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Seed Next.js TypeScript
 
-## Getting Started
+![GitHub repo size](https://img.shields.io/github/repo-size/nunorralves/seed-nextjs-typescript)
+![GitHub contributors](https://img.shields.io/github/contributors/nunorralves/seed-nextjs-typescript)
+![GitHub stars](https://img.shields.io/github/stars/nunorralves/seed-nextjs-typescript)
+![GitHub downloads](https://img.shields.io/github/downloads/nunorralves/seed-nextjs-typescript/total)
+![GitHub forks](https://img.shields.io/github/forks/nunorralves/seed-nextjs-typescript)
+![GPLv3 license](https://img.shields.io/github/license/nunorralves/seed-nextjs-typescript)
 
-First, run the development server:
+Seed repository for Next.js & TypeScript projects. Created using Yarn create next-app
+Is includes:
+  - TypeScript
+  - 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Prerequisites
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Before you begin, ensure you have met the following requirements:
+* You have installed Node.JS
+* You have installed npm or yarn
+* You have a Linux / Mac / Windows. Any OS is supported
 
-## Learn More
+## Installing Seed Next.js TypeScript
 
-To learn more about Next.js, take a look at the following resources:
+To install React Storybook, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Linux, macOS, Windows:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+`git clone https://github.com/nunorralves/seed-nextjs-typescript.git`
 
-## Deploy on Vercel
+## Using Seed Next.js TypeScript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To use Seed Next.js TypeScript, follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`npm run ` or
+`yarn run ` or
+
+## Contributing to Seed Next.js TypeScript
+
+To contribute to Seed Next.js TypeScript, follow these steps:
+
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <project_name>/<location>`
+5. Create the pull request.
+
+Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## Contributors
+
+<!--- Thanks to the following people who have contributed to this project:
+
+* 
+--->
+## Contact
+
+<!--- If you want to contact me you can reach me at <>. -->
+
+## License
+
+This project uses the following license: [GNU GPLv3](<https://github.com/nunorralves/react-storybook/blob/master/LICENSE.md>).
