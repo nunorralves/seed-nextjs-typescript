@@ -26,7 +26,7 @@
     "prettier/prettier": "error",
     "space-before-function-paren": "off", // Disable space between function and parentheses
     "react/prop-types": "off", // No need to use React propTypes since we will be using TypeScript
-    "semi": [2, "always", { "omitLastInOneLineBlock": true }], // AirBnb stye. enforce semi-columns
+    "semi": [2, "always", { "omitLastInOneLineBlock": true }], // AirBnb style. enforce semi-columns
     "react/react-in-jsx-scope": "off" // Disable need for importing React since we are already using Next (not needed)
   }
 }
