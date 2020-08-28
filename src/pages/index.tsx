@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import Logo from '../assets/next-js.svg';
+
 const Home: React.FC = () => {
   return (
     <div>
@@ -9,6 +11,7 @@ const Home: React.FC = () => {
 
       <main>
         <h1>Welcome to our new Next.js App Homepage</h1>
+        <Logo/>
       </main>
 
       <footer>

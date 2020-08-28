@@ -12,6 +12,9 @@ It includes:
   - TypeScript
   - ESLint (standard style guide)
   - Prettier
+  - Styled Components (with Theme Provider)
+  - next-images (Import images in Next.js - Base64)
+  - babel-plugin-inline-react-svg (mports to SVG files into React Components)
 
 
 ## Prerequisites
@@ -53,10 +56,7 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 <!--- Thanks to the following people who have contributed to this project:
 * 
 --->
-* 
-
-<!--- ## Contact --->
-<!--- If you want to contact me you can reach me at <>. -->
+* Pull requests are always welcome smiley.
 
 ## License
 
