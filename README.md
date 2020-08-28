@@ -14,7 +14,7 @@ It includes:
   - Prettier
   - Styled Components (with Theme Provider)
   - next-images (Import images in Next.js - Base64)
-  - babel-plugin-inline-react-svg (mports to SVG files into React Components)
+  - babel-plugin-inline-react-svg (Transforms imports to SVG files into React Components)
 
 
 ## Prerequisites
