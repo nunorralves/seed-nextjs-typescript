@@ -7,7 +7,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/nunorralves/seed-nextjs-typescript)
 ![GPLv3 license](https://img.shields.io/github/license/nunorralves/seed-nextjs-typescript)
 
-Seed repository for Next.js & TypeScript projects. Created using Yarn create next-app
+Seed repository for Next.js & TypeScript projects. Created using Yarn create next-app  
 It includes:
   - TypeScript
   - ESLint (standard style guide)
