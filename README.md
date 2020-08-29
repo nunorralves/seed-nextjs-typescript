@@ -15,6 +15,7 @@ It includes:
   - Styled Components (with Theme Provider)
   - next-images (Import images in Next.js - Base64)
   - babel-plugin-inline-react-svg (Transforms imports to SVG files into React Components)
+  - Storybook
 
 
 ## Prerequisites
