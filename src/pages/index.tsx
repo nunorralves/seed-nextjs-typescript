@@ -11,7 +11,7 @@ const Home: React.FC = () => {
 
       <main>
         <h1>Welcome to our new Next.js App Homepage</h1>
-        <Logo/>
+        <Logo />
       </main>
 
       <footer>

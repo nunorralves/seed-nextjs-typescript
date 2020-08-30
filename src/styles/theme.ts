@@ -1,6 +1,8 @@
 const theme = {
   colors: {
     background: '#121212',
+    backgroundForms: '#323232',
+    backgroundInputForms: '#a0a0a0',
     text: '#e1e1e1',
     linkColor: '#666666'
   }
