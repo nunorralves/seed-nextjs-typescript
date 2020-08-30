@@ -2,8 +2,8 @@ const theme = {
   dark: {
     colors: {
       background: '#121212',
-      backgroundForms: '#323232',
-      backgroundInputForms: '#a0a0a0',
+      backgroundForms: '#292929',
+      backgroundInputForms: '#202020',
       text: '#e1e1e1',
       linkColor: '#666666'
     }
