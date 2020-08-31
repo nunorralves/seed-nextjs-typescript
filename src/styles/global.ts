@@ -8,20 +8,22 @@ export default createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font: 400 16px Roboto, sans-serif;
-}
-
-button, input, select, textarea{
-  font: 400 16px Roboto, sans-serif;
+  /* font: 400 16px Roboto, sans-serif; */
+  font: ${props => props.theme.fontWeights.normal} ${props =>
+  props.theme.fontSizes.default}   ${props => props.theme.fonts.body};
 }
 
 body {
-  background-color: ${props => props.theme.colors.background};
-  color: ${props => props.theme.colors.text};
+  font: ${props => props.theme.fontWeights.normal} ${props =>
+  props.theme.fontSizes.default} ${props => props.theme.fonts.body};
+  background-color: ${props => props.theme.colors.background.darker};
+  color: ${props => props.theme.colors.text.light}
 }
 
-a {
-  color: ${props => props.theme.colors.linkColor};
+button, input, select, textarea, p{
+  font: ${props => props.theme.fontWeights.normal} ${props =>
+  props.theme.fontSizes.default} ${props => props.theme.fonts.body};
+  color: ${props => props.theme.colors.text.light}
 }
 
 `;

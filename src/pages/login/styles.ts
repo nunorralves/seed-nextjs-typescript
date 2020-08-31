@@ -24,6 +24,7 @@ export const StyledLogoDiv = styled.div`
   h1 {
     font-size: 3rem;
     margin-top: 2rem;
+    color: ${props => props.theme.colors.primary.regular};
   }
 `;
 
@@ -31,7 +32,7 @@ export const StyledFormDiv = styled.div`
   grid-area: formArea;
   display: flex;
   height: 100%;
-  background-color: ${props => props.theme.colors.backgroundInputForms};
+  background-color: ${props => props.theme.colors.background.dark};
   flex-direction: column;
   border-radius: 0.5rem;
   align-items: stretch;
@@ -40,43 +41,44 @@ export const StyledFormDiv = styled.div`
 
 export const StyledInput = styled.input`
   height: 3rem;
-  background-color: ${props => props.theme.colors.background};
-  border-color: ${props => props.theme.colors.background};
-  border-radius: 0.25rem;
+  background-color: ${props => props.theme.colors.background.darker};
+  border-width: 0;
+  outline: none;
+  border-radius: ${props => props.theme.borderRadius.sm};
   padding: 0 1rem;
   margin-top: 1rem;
-  color: ${props => props.theme.colors.text};
+  color: ${props => props.theme.colors.text.regular};
 
-  &:focus {
-    outline: none;
-    border-color: red;
+  & :focus {
+    border: 1px solid ${props => props.theme.colors.primary.regular};
   }
 `;
 
 export const StyledLink = styled.a`
   text-decoration: none;
   margin-top: 1rem;
-  color: white;
+  color: ${props => props.theme.colors.primary.regular};
   text-align: right;
   /* font-weight: bold; */
   font-size: 0.9rem;
 
   &:hover {
-    color: red;
+    color: ${props => props.theme.colors.primary.lighter};
   }
 `;
 
 export const StyledButton = styled.button`
   margin-top: 3rem;
   height: 3rem;
-  border-radius: 0.25rem;
-  background-color: ${props => props.theme.colors.backgroundForms};
-  border: 1px solid ${props => props.theme.colors.background};
-  color: white;
+  border-radius: ${props => props.theme.borderRadius.sm};
+  background-color: ${props => props.theme.colors.primary.regular};
+  border: 0px;
   font-weight: bold;
+  outline-style: none;
 
-  &:hover {
-    background-color: red;
+  &:hover,
+  :focus {
+    background-color: ${props => props.theme.colors.primary.lighter};
   }
 `;
 
@@ -87,11 +89,11 @@ export const StyledText = styled.p`
 
   a {
     text-decoration: none;
-    color: white;
+    color: ${props => props.theme.colors.primary.regular};
     font-size: 0.9rem;
 
     &:hover {
-      color: red;
+      color: ${props => props.theme.colors.primary.lighter};
     }
   }
 `;
