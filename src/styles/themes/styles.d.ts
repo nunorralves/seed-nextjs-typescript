@@ -2,31 +2,16 @@ import 'styled-components';
 
 interface IColor {
   lighter: string;
-  light: string;
   regular: string;
-  dark: string;
   darker: string;
+  hover: string;
 }
 
 declare module 'styled-components' {
   export interface DefaultTheme {
     fonts: {
-      body: string;
-      heading: string;
+      base: string;
       mono: string;
-    };
-    fontWeights: {
-      thin: number;
-      light: number;
-      normal: number;
-      medium: number;
-      bold: number;
-      black: number;
-    };
-    borderRadius: {
-      sm: string;
-      md: string;
-      lg: string;
     };
     fontSizes: {
       default: string;
@@ -41,8 +26,20 @@ declare module 'styled-components' {
       xl5: string;
       xl6: string;
     };
+    fontWeights: {
+      thin: number;
+      light: number;
+      normal: number;
+      medium: number;
+      bold: number;
+      black: number;
+    };
+    borderRadius: {
+      sm: string;
+      md: string;
+      lg: string;
+    };
     colors: {
-      transparent: string;
       black: string;
       white: string;
       error: string;
@@ -50,10 +47,11 @@ declare module 'styled-components' {
       success: string;
       warning: string;
       background: IColor;
-      text: IColor;
       primary: IColor;
       secondary: IColor;
       tertiary: IColor;
+      textPrimary: IColor;
+      textSecondary: IColor;
     };
   }
 }

@@ -24,7 +24,7 @@ export const StyledLogoDiv = styled.div`
   h1 {
     font-size: 3rem;
     margin-top: 2rem;
-    color: ${props => props.theme.colors.primary.regular};
+    color: ${props => props.theme.colors.tertiary.regular};
   }
 `;
 
@@ -32,7 +32,7 @@ export const StyledFormDiv = styled.div`
   grid-area: formArea;
   display: flex;
   height: 100%;
-  background-color: ${props => props.theme.colors.background.dark};
+  background-color: ${props => props.theme.colors.background.regular};
   flex-direction: column;
   border-radius: 0.5rem;
   align-items: stretch;
@@ -47,23 +47,23 @@ export const StyledInput = styled.input`
   border-radius: ${props => props.theme.borderRadius.sm};
   padding: 0 1rem;
   margin-top: 1rem;
-  color: ${props => props.theme.colors.text.regular};
+  color: ${props => props.theme.colors.textPrimary.regular};
 
   & :focus {
-    border: 1px solid ${props => props.theme.colors.primary.regular};
+    border: 1px solid ${props => props.theme.colors.tertiary.regular};
   }
 `;
 
 export const StyledLink = styled.a`
   text-decoration: none;
   margin-top: 1rem;
-  color: ${props => props.theme.colors.primary.regular};
+  color: ${props => props.theme.colors.tertiary.regular};
   text-align: right;
   /* font-weight: bold; */
   font-size: 0.9rem;
 
   &:hover {
-    color: ${props => props.theme.colors.primary.lighter};
+    color: ${props => props.theme.colors.tertiary.hover};
   }
 `;
 
@@ -71,14 +71,14 @@ export const StyledButton = styled.button`
   margin-top: 3rem;
   height: 3rem;
   border-radius: ${props => props.theme.borderRadius.sm};
-  background-color: ${props => props.theme.colors.primary.regular};
+  background-color: ${props => props.theme.colors.tertiary.regular};
   border: 0px;
   font-weight: bold;
   outline-style: none;
 
   &:hover,
   :focus {
-    background-color: ${props => props.theme.colors.primary.lighter};
+    background-color: ${props => props.theme.colors.tertiary.hover};
   }
 `;
 
@@ -89,11 +89,11 @@ export const StyledText = styled.p`
 
   a {
     text-decoration: none;
-    color: ${props => props.theme.colors.primary.regular};
+    color: ${props => props.theme.colors.tertiary.regular};
     font-size: 0.9rem;
 
     &:hover {
-      color: ${props => props.theme.colors.primary.lighter};
+      color: ${props => props.theme.colors.tertiary.hover};
     }
   }
 `;
